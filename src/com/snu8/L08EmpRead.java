@@ -6,6 +6,9 @@ import java.time.LocalDate;
 
 public class L08EmpRead {
     public static void main(String[] args) {
+        //"SELECT * FROM EMP WHERE deptno=?"
+        //"SELECT * FROM EMP WHERE empno=?"
+        //"SELECT * FROM EMP WHERE job=?"
         String sql = "select * from emp";
         try(Connection conn= DriverManager.getConnection(Scott.URL, Scott.USERNAME, Scott.PASSWORD);
             Statement stmt=conn.createStatement();
