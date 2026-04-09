@@ -38,6 +38,8 @@ public class L16EmpRead {
             System.out.println(empList);
         } catch (Exception e) {
             e.printStackTrace();
+        //ORA-17006 : 열 이름이 부적합합니다. 필드이름이 잘못되면 뜨는 오류
+
         }
 
     }

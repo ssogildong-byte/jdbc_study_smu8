@@ -84,7 +84,7 @@ public class L15EmpDto {
 
     @Override
     public String toString() {
-        return "L15EmpDto{" +
+        return "{" +
                 "empno=" + empno +
                 ", ename='" + ename + '\'' +
                 ", job='" + job + '\'' +
